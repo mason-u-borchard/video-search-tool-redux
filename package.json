@@ -1,0 +1,57 @@
+{
+  "name": "video-search-tool-redux",
+  "version": "1.0.0",
+  "description": "> 1. Run \"npm install\" to install dependencies   > 2. Run \"npm start\" to start live-server   > 3. Run \"npm run build\" to create bundle.js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranjis-mcbasketball/video-search-tool-redux.git"
+  },
+  "author": "Mason Borchard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cranjis-mcbasketball/video-search-tool-redux/issues"
+  },
+  "homepage": "https://github.com/cranjis-mcbasketball/video-search-tool-redux#readme",
+  "dependencies": {
+    "babel-core": "6.24.1",
+    "babel-plugin-react": "1.0.0",
+    "babel-preset-react": "6.24.1",
+    "bootstrap": "^4.0.0-alpha.2",
+    "enzyme-redux": "^0.1.7",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "popper.js": "^1.12.9",
+    "react": "^15.6.1",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.6",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "2.2.0",
+    "thunk": "0.0.1",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "6.24.1",
+    "exports-loader": "0.6.4",
+    "react-addons-test-utils": "15.6.0",
+    "react-dom": "0.14.9",
+    "redux-mock-store": "1.2.3",
+    "redux-test-utils": "0.1.2",
+    "sinon": "1.15.4",
+    "uglifyjs-webpack-plugin": "0.4.3",
+    "webpack": "2.6.1"
+  }
+}
