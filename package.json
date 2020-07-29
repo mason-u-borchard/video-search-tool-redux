@@ -26,7 +26,7 @@
     "enzyme-redux": "^0.1.7",
     "eslint": "^7.1.0",
     "eslint-config-airbnb": "^18.1.0",
-    "jquery": "^2.2.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.6.1",
     "popper.js": "^1.12.9",
     "react": "^15.6.1",
